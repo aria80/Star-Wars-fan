@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <% include partials/head.ejs %>
+
+</head>
+<body>
+
+<% include partials/header.ejs %>
+
+<div id="hero-image-single" style="background-image: url('/images/star_wars_about_jedi.jpg')">
+    <h1 id="hero-title"><%= title %></h1>
+</div>
+
+<div class="content-padding clearfix">
+    <div class="poster-wrapper">
+        <img src="/images/star_wars_about_jedi.png" class="img-responsive">
+    </div>
+
+    <div class="description-wrapper">
+
+        <div class="description">
+            <h2 class="movie-header">Description</h2>
+            <p>The Jedi are the main protagonists in the Star Wars universe. They are depicted as an ancient monastic,
+                academic, meritocratic and paramilitary organization whose origin dates back approximately 25,000 years
+                before the events of the first film released in the franchise.</p>
+        </div>
+
+        <div class="main-characters">
+            <h2 class="movie-header">Main Characters</h2>
+            <ul>
+
+                    <li>Mark Hamill - Luke Skywalker
+                        Ewan McGregor - Obi Wan Kenobi
+                        Frank Oz - Yoda
+                        Liam Neeson - Qui-Gon Jinn
+                        Samuel L. Jackson - Mace Windu
+                        Silas Carson - Ki Adi Mundi</li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+<% include partials/footer.ejs %>
+
+<% include partials/scripts.ejs %>
+</body>
+</html>

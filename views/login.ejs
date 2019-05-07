@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <% include partials/head.ejs %>
+</head>
+<body style="background-image: url('/images/login.jpg'); color: white; background-size: cover">
+
+<% include partials/header.ejs %>
+
+<div>
+    <h1 align="center" style="padding-top: 90px">Login Page</h1>
+</div>
+
+<div>
+    <p align="center" style="word-spacing: 40px; padding-top: 200px">
+        <label>UserName:</label>
+        <input type="text" id="myUsr" style="color: black">
+    </p>
+
+
+
+    <p align="center" style="word-spacing: 45px; ">
+        <label>Password:</label>
+        <input type="password"
+               id="myPwd"
+               style="color: black"/>
+    </p>
+
+
+
+    <p align="center">
+        <input type="submit" id="myLog" value="Login" style="color: green">
+    </p>
+
+
+
+    <p align="center">
+        <label>Remember Me</label>
+        <input type="checkbox">
+    </p>
+</div>
+
+<p style="padding-top: 100px">
+    <% include partials/footer.ejs %>
+
+    <% include partials/scripts.ejs %>
+</p>
+</body>
+</html>

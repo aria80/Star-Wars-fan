@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <% include partials/head.ejs %>
+
+</head>
+<body>
+
+<% include partials/header.ejs %>
+
+<div id="hero-image-single" style="background-image: url('/images/about-galactic-empire.jpg')">
+    <h1 id="hero-title"><%= title %></h1>
+</div>
+
+<div class="content-padding clearfix">
+    <div class="poster-wrapper">
+        <img src="/images/about-galactic-empire.png" class="img-responsive">
+    </div>
+
+    <div class="description-wrapper">
+
+        <div class="description">
+            <h2 class="movie-header">Description</h2>
+            <p>The Galactic Empire is a fictional autocracy featured in the Star Wars franchise. It was first introduced
+                in the 1977 film Star Wars and also appears in its two sequels: The Empire Strikes Back and Return of
+                the Jedi and is the main antagonist faction of the original trilogy.</p>
+        </div>
+
+        <div class="main-characters">
+            <h2 class="movie-header">Main Characters</h2>
+            <ul>
+
+                <li>David Prowse - Darth Vader
+                    Ian McDiarmid - Sheev Palpatine
+                    Michael Pennington - Moff Jerjerrod
+                    Adam Driver - Kylo</li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+<% include partials/footer.ejs %>
+
+<% include partials/scripts.ejs %>
+</body>
+</html>
