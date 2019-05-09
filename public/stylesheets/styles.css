@@ -26,6 +26,7 @@ Hero Image / Title Styles
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    background-attachment: fixed;
 }
 
 #hero-image::before {
@@ -65,8 +66,8 @@ Hero Image / Title Styles
 Navbar and Navigation Styles / Overrides
 ------------------------------------------ */
 .navbar-fixed-top {
-    position: absolute;
     padding-top: 10px;
+    position: absolute;
 }
 
 .navbar-nav li a {
