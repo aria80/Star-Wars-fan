@@ -71,6 +71,7 @@ Navbar and Navigation Styles / Overrides
 }
 
 .navbar-nav li a {
+    transition: 0.5s ease-in-out;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.3px;
@@ -96,6 +97,7 @@ Navbar and Navigation Styles / Overrides
 .navbar-nav li a:hover,
 .navbar-nav li a:focus {
     background-color: transparent;
+    color: red;
 }
 
 .navbar-nav>li>.dropdown-menu {
